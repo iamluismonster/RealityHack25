@@ -132,6 +132,7 @@ namespace Recorder
 
         private void Update()
         {
+            /*
             if (Input.GetKeyDown(keyCode) && !holdToRecord)
             {
                 if (isRecording)
@@ -143,7 +144,7 @@ namespace Recorder
                     StartRecording();
                 }
             }
-
+            */
             if (recordingTime >= timeToRecord)
             {
                 SaveRecording();
